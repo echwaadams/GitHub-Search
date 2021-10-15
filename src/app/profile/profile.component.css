@@ -1,10 +1,11 @@
 h1 {
     text-align: center;
+    letter-spacing: 2px;
 
 }
 .desc {
     font-family: 'Yeon Sung', cursive;
-    font-size:25px;
+    font-size:20px;
 }
 .giit  {
     text-align: center;
