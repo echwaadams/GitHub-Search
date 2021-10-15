@@ -8,6 +8,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component'
 import { ProfileService } from './profile/profile.service';
 import { HighlightDirective } from './highlight.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HighlightDirective } from './highlight.directive';
     ProfileComponent,
     NotFoundComponent,
     HighlightDirective,
+    DateCountPipe,
   ],
   imports: [
     BrowserModule,
