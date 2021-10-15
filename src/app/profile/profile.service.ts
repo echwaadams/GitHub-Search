@@ -10,7 +10,7 @@ export class ProfileService {
   private Baseurl = environment.BASE_URL;
 
   private username:string;
-  private client_id = '';
+  private client_id = '87292ad08075f5f4f8af';
   private client_secret = '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';
 
   getProfileInfo(){
