@@ -7,7 +7,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class ProfileService {
-  private Baseurl = environment.BASE_URL;
+  
 
   private username:string;
   private client_id = '87292ad08075f5f4f8af';
