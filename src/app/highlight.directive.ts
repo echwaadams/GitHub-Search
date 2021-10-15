@@ -15,7 +15,7 @@ export class HighlightDirective {
   }
 
   @HostListener('mouseenter') onMouseEnter() {
-    this.highlight(this.highlightColor || 'lime');
+    this.highlight(this.highlightColor || 'blue');
   }
 
   @HostListener('mouseleave') onMouseLeave() {
