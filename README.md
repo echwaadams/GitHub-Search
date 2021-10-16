@@ -26,6 +26,8 @@ Navigate to http://localhost:4200/ in your browser.
 
 . ANGULARJS
 
+. JAVASCRIPT
+
 
 
 ## BDD
