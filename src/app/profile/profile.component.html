@@ -2,10 +2,13 @@
 <p class="giit">A search engine for github accounts</p>
 
 <div class="container">
-    <form action="" class="center" >
+    <form action="" class="center" #userForm='ngForm'>
         <div class="for-group">
             <input type="text" placeholder="Enter github username" class="form-control"
-            >
+            [(ngModel)]="username" #name='ngModel'>
+            <div [hidden]="name.valid || name.pristine" class="alert-danger">
+                <p>Name is required</p>
+              </div>
             <button class="btn" > SEARCH USER</button>
 
         </div>
