@@ -8,9 +8,9 @@ import {HttpClientModule} from '@angular/common/http';
 import { NotFoundComponent } from './not-found/not-found.component'
 import { ProfileService } from './profile/profile.service';
 import { HighlightDirective } from './highlight.directive';
+import { FormsModule } from '@angular/forms';
 import { DateCountPipe } from './date-count.pipe';
 import { SearchFormComponent } from './search-form/search-form.component';
-import { SearchDisplayComponent } from './search-display/search-display.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +20,12 @@ import { SearchDisplayComponent } from './search-display/search-display.componen
     HighlightDirective,
     DateCountPipe,
     SearchFormComponent,
-    SearchDisplayComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
