@@ -10,6 +10,7 @@ import { ProfileService } from './profile/profile.service';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { SearchDisplayComponent } from './search-display/search-display.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
     HighlightDirective,
     DateCountPipe,
     SearchFormComponent,
+    SearchDisplayComponent,
   ],
   imports: [
     BrowserModule,
